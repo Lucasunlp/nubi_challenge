@@ -1,13 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  surname: MyString
+  name: Lucas
+  surname: Albo
   birth_date: 2020-03-19
   address: MyString
   email: MyString
   phone: MyString
-  identification_number: 1
+  identification_number: 35720912
 
 two:
   name: MyString
@@ -16,4 +16,13 @@ two:
   address: MyString
   email: MyString
   phone: MyString
-  identification_number: 1
+  identification_number: 35720913
+
+three:
+    name: MyString
+    surname: MyString
+    birth_date: 2020-03-19
+    address: MyString
+    email: MyString
+    phone: MyString
+    identification_number: 16300990

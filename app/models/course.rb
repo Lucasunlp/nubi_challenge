@@ -1,5 +1,5 @@
 class Course < ApplicationRecord
-  has_many :alumns
+  has_many :alumn
   belongs_to :teacher
   validates :name, :start_date, :end_date, :price, :amount_hours, presence: true
   validates :name, uniqueness: true

@@ -1,6 +1,6 @@
 class Api::V1::Alumns::Show
   def call(params)
-    query = Alumn.find_by(id: params) unless params.nil?
+    query = Alumn.find_by(identification_number: params) unless params.nil?
     construct(query)
   rescue StandardError
     raise ArgumentError, "Unknown status #{status}."
