@@ -43,3 +43,9 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Representable to response api requests
+gem 'representable'
+
+# to fix multi_json error
+gem 'multi_json'
